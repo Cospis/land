@@ -15,8 +15,8 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: aqua;
-  position: sticky;
-    top: 0;
+  /* position: sticky;
+    top: 0; */
 }
 .navbar h1{
   color: #1E1D2F;
