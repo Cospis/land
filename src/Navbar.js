@@ -1,19 +1,31 @@
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="title">
+      <nav>
         <h1>WhyTeData</h1>
-        <div className="hbtext">
+        {/* <div className="hbtext">
           …trading RAW global business secrets in Nigeria
-        </div>
-      </div>
-      <div className="nav">
-        <a href="#aboutus">About us</a>
-        <a href="#businessfocus">Business Focus</a>
-        <a href="#events">Events and Industries</a>
-        <a href="/">Blog</a>
-        <a href="/">Contact</a>
-      </div>
+        </div> */}
+
+        <ul>
+          <li>
+            <a href="#aboutus">About us</a>
+          </li>
+          <li>
+            <a href="#businessfocus">Business Focus</a>
+          </li>
+          <li>
+            <a href="#events">Events and Industries</a>
+          </li>
+          <li>
+            {" "}
+            <a href="/">Blog</a>
+          </li>
+          <li>
+            <a href="/">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };
