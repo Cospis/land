@@ -4,7 +4,7 @@ const Navbar = () => {
       <nav>
         <h1>WhyTeData</h1>
         {/* <div className="hbtext">
-          …trading RAW global business secrets in Nigeria
+          // …trading RAW global business secrets in Nigeria
         </div> */}
 
         <ul>
